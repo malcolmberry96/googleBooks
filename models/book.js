@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+const Schema = mongoose.Schema;
 //Reference to the schema constructor 
 const BookSchema = new Schema({
     //title 
