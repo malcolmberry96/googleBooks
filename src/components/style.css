@@ -1,12 +1,11 @@
 .container-fluid {
-    background-color: #343A40;
-    background-image: url("../fake-brick.png");
-    color: white;
+    
+    color: black;
     min-height: 100vh;
     padding: 0;
 }
 h1 {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Playfair Display', serif;
 }
 #search {
     width: 350px;
@@ -18,11 +17,10 @@ h1 {
 }
 .header {
     width: 100%;
-    box-shadow: 0 5px 5px black;
     margin-bottom: 15px;
 }
 .btn {
-    background-color: #e75480;
+    background-color: blue;
     color: white;
 }
 .btn:hover {
