@@ -13,7 +13,6 @@ function Nav() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                    <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>Search</Link>
                     <Link to="/saved" className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}>Saved</Link>
                     </div>
                 </div>
