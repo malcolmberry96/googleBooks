@@ -4,31 +4,47 @@
     min-height: 100vh;
     padding: 0;
 }
+
 h1 {
     font-family: 'Playfair Display', serif;
 }
+
 #search {
     width: 350px;
     border-radius: 5px;
+    margin: auto;
 }
+
 .book {
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+
 .header {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .btn {
-    background-color: blue;
+    background-color: #ffb6c1;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
+
 .btn:hover {
     background-color: #ffb6c1;
     color: black;
 }
-hr {
-	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-}
+
+.navbar-brand  {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+  }
+
+ 
+ 

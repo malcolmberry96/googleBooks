@@ -38,9 +38,13 @@ class Search extends Component {
     render() {
         return(
             <div>
-                <h1 className="mb-4">Search for Books on Google Books</h1>
+                <h1>
+  <a href="http://stackoverflow.com">
+    <img src="./googleBooks.jpg" alt="Stack Overflow" />
+  </a>
+</h1>
                 <form className="form-inline">
-                    <input id="search" type="text" value={this.state.search} onChange={this.typing} name="search" className="mb-2 mr-3" placeholder="Type a book title or subject to search!" />
+                    <input id="search" type="text" value={this.state.search} onChange={this.typing} name="search" className="mb-2 mr-3" placeholder="Type a book title or subject" />
                     <button type="submit" className="btn mb-2" onClick={this.searchButton}>Search</button>
                 </form>
                 <div className="books">
