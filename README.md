@@ -12,5 +12,13 @@ Incorporates the following technologies:
 - Node.js
 - JavaScript ES6
 
+Known Bugs:
+
+- Books not saving to the DB once deployed with Heroku, possible mLab issue. 
+
+<img width="1252" alt="screen shot 2019-01-22 at 10 41 51 pm" src="https://user-images.githubusercontent.com/39191969/51616530-e89b0000-1eef-11e9-80b7-0c5748ff46a7.png">
+
+<img width="1250" alt="screen shot 2019-01-22 at 10 42 14 pm" src="https://user-images.githubusercontent.com/39191969/51616629-1e3fe900-1ef0-11e9-83ce-f2c41918c786.png">
+
 
 
