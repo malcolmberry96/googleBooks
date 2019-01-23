@@ -20,7 +20,16 @@ app.use("/api",routes);
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
 
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+const dbRoute = "mongodb://<malcolm96>:<lolcrackers3>@ds163354.mlab.com:63354/heroku_fl2x0v0k";
+
+
+mongoose.connect(dbRoute, { useNewUrlParser: true });
+
+let db = mongoose.connection;
+
+db.once("open", () => console.log("connected to the database"));
+
+db.on("error", console.log.error.bind(console, "MongoDB connection error:"));
 
 //Directing requests to the react app 
 app.get("*", function(req, res) {
