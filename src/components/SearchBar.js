@@ -54,7 +54,7 @@ class Search extends Component {
                     title={book.volumeInfo.title}
                     thumbnail={book.volumeInfo.imageLinks === undefined
                     ? ""
-                    : `{book.volumeInfo.imageLinks.thumbnail}`}
+                    : `${book.volumeInfo.imageLinks.thumbnail}`}
                     synopsis={book.volumeInfo.description}
                     saveRemove={this.saveRemove}
                     />
