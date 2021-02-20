@@ -52,7 +52,7 @@ class Search extends Component {
                     authors={book.volumeInfo.authors}
                     link={book.volumeInfo.previewLink}
                     title={book.volumeInfo.title}
-                    thumbnail={book.volumeInfo.thumbnail || "nothing"}
+                    thumbnail={book.volumeInfo.imageLinks.thumbnail}
                     synopsis={book.volumeInfo.description}
                     saveRemove={this.saveRemove}
                     />
